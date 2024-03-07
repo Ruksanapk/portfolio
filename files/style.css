@@ -364,7 +364,7 @@ body {
 }
 
 .progress-line.java span {
-    width: 70%;
+    width: 60%;
 }
 
 .progress-line.cpls span {
@@ -397,11 +397,11 @@ body {
 }
 
 .progress-line.java span::after {
-    content: "50%";
+    content: "60%";
 }
 
 .progress-line.cpls span::after {
-    content: "50%";
+    content: "70%";
 }
 
 .progress-line span::before {
@@ -573,14 +573,14 @@ body {
 
 .layer h5 {
     color: #000;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .layer p {
     color: black;
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.8;
     text-align: justify;
@@ -589,7 +589,7 @@ body {
 .layer i {
     color: #0ef;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
     background: #000;
     width: 60px;
     height: 60px;
@@ -696,7 +696,7 @@ body {
 
 .contacts {
     display: grid;
-    /*grid-template-columns: repeat (2, 1fr);*/
+    
     align-items: center;
     gap: 3rem;
     padding: 40px;
@@ -727,12 +727,6 @@ body {
     font-weight: 600;
 }
 
-/*.contact-text p{
-    color: rgb(177, 177, 177);
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 2rem;
-}*/
 .contact-list {
     margin-bottom: 3rem;
 }
@@ -1037,7 +1031,7 @@ body {
     .container2 {
         width: 600px;
         max-height: 500px;
-        padding: 10px;
+        padding: 8px;
         margin-left: 0px;
     }
     .bar .info .addhtml::before{
@@ -1050,10 +1044,10 @@ body {
         content: "75%";
     }
     .bar .info .addjava::before{
-        content: "50%";
+        content: "60%";
     }
-    .bar .info .addc::before{
-        content: "50%";
+    .bar .info .addf::before{
+        content: "70%";
     }
 
     /*project*/
@@ -1067,7 +1061,7 @@ body {
         padding-bottom: 15px;
     }
     .layer p {
-        line-height: normal;
+        line-height: small;
     }
     /*service*/
     .sub-title {
