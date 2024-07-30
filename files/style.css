@@ -189,8 +189,7 @@ body {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
-    /*align-items: center;*/
-    /*gap: 1.5rem;*/
+
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
@@ -204,7 +203,7 @@ body {
     background-size: cover;
     padding-right: 10%;
     margin-top: 2.5%;
-    /*margin-top: 7.5%;*/
+    
     opacity: 1;
 }
 
@@ -214,7 +213,6 @@ body {
     max-width: 492px;
     max-height: 492px;
     border-radius: 90px;
-    /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
     border: #0ef 5px solid;
 }
 

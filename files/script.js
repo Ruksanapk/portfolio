@@ -1,6 +1,6 @@
 
 var typed = new Typed(".text", {
-    strings: ["Flutter development" , "Web Development"],
+    strings: ["", "Web Development","Flutter development"],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
